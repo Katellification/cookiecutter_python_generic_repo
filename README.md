@@ -1,8 +1,9 @@
 # cookiecutter_python_generic_repo
 
-This is a [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/index.html) template to create a new Python repository.
+This is a [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/index.html) template to create a new Python repository. It was created in 2019 for a team on GitHub enterprise. It has not been extensively tested since it was made non-team specific and updates to the GitHub API may cause this to fail. Hopefully you find this useful if you wanted to leverage something similar for your own work.
 
 ## Features
+
 - Testing with [pytest](https://docs.pytest.org/en/latest/)
 - Formatting with [black](https://github.com/psf/black)
 - Import sorting with [isort](https://github.com/timothycrosley/isort)
