@@ -1,0 +1,10 @@
+{
+    "github_username": "your-username",
+    "repo_name": "My New Repo",
+    "repo_slug": "{{ cookiecutter.repo_name|lower|replace(' ', '_') }}",
+    "repo_short_description": "GitHub repository scaffold contains all the boilerplate you need to create a Python project repo.",
+    "org_name": "target-org",
+    "create_upstream_fork_repo_on_github": ["yes", "no"],
+    "github_team_id": "Team id to give access permissions to the repo",
+    "exclude_test_files": ["yes", "no"]
+}

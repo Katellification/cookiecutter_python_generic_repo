@@ -1,0 +1,10 @@
+---
+extends: default
+
+ignore: |
+  .pre-commit-config.yaml
+
+rules:
+  line-length:
+    max: 88
+    level: warning
